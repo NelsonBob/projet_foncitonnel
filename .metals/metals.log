@@ -1,0 +1,37 @@
+2023.02.11 10:38:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DEVOPS\projets\fonctionnelle\projet\projet\funprog-al\.metals\lsp.trace.json or C:\Users\Nelson FOMEKONG\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.11 10:38:05 INFO  logging to file D:\DEVOPS\projets\fonctionnelle\projet\projet\funprog-al\.metals\metals.log
+2023.02.11 10:38:05 INFO  Started: Metals version 0.11.10 in workspace 'D:\DEVOPS\projets\fonctionnelle\projet\projet\funprog-al' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Nelson%20FOMEKONG/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.11 10:38:06 INFO  time: initialize in 1.25s
+2023.02.11 10:38:09 WARN  Build server is not auto-connectable.
+2023.02.11 10:38:09 WARN  no build target for: D:\DEVOPS\projets\fonctionnelle\projet\projet\funprog-al\build.sbt
+2023.02.11 10:38:19 INFO  no build target found for D:\DEVOPS\projets\fonctionnelle\projet\projet\funprog-al\build.sbt. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.11 10:38:19 INFO  running 'C:\Program Files\Java\jdk-19\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\NELSON~1\AppData\Local\Temp\metals16484483515721579211\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.02.11 10:38:21 ERROR java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2023.02.11 10:38:21 ERROR 	at java.base/java.lang.System.setSecurityManager(System.java:425)
+2023.02.11 10:38:21 ERROR 	at sbt.TrapExit$.installManager(TrapExit.scala:54)
+2023.02.11 10:38:21 ERROR 	at sbt.StandardMain$.runManaged(Main.scala:184)
+2023.02.11 10:38:21 ERROR 	at sbt.xMain$.$anonfun$run$6(Main.scala:100)
+2023.02.11 10:38:21 ERROR 	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:368)
+2023.02.11 10:38:21 ERROR 	at sbt.xMain$.run(Main.scala:83)
+2023.02.11 10:38:21 ERROR 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+2023.02.11 10:38:21 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+2023.02.11 10:38:21 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:83)
+2023.02.11 10:38:21 ERROR 	at sbt.xMain.run(Main.scala:46)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:111)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:120)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:20)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:56)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:18)
+2023.02.11 10:38:21 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.02.11 10:38:21 ERROR [error] [launcher] error during sbt launcher: java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+2023.02.11 10:38:21 INFO  time: ran 'sbt bloopInstall' in 1.58s
+2023.02.11 10:38:21 ERROR sbt command failed: C:\Program Files\Java\jdk-19\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\NELSON~1\AppData\Local\Temp\metals16484483515721579211\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
